@@ -30,8 +30,8 @@ running is quite simple
 ```
 
 ## run.sh script
-compiles any c/c++ file based on extension and execute the object file with visible command 
+compiles any c/c++ file based on extension and execute the object file with visible command .Takes input file as 2nd argument (optional) if not passes searches for a default input file with **\<filename>_input.txt**
 ```
-./run.sh <filename.cpp/filename.c/filename.cc>
+./run.sh <filename.cpp/filename.c/filename.cc> <input.txt-file(optional)>
 ```
 
